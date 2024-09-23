@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boekingsformulier</title>
+</head>
+<body>
+    <h1>Boekingsformulier</h1>
+    <form>
+        <label for="Voornaam">Voornaam</label >
+        <input type="text" name="Voornaam" pattern="[A-Za-z]"><br><br>
+
+        <label for="Achternaam">Achternaam</label>
+        <input type="text" name="Achternaam" pattern="[A-Za-z]"><br><br>
+
+        <label for="Geslacht">Geslacht</label><br>
+        <input type="radio" name="Geslacht" value="man" checked> Man<br>
+        <input type="radio" name="geslacht" value="vrouw"> Vrouw<br>
+        <input type="radio" name="geslacht" value="anders"> Anders<br><br>
+
+        <label for="Straat en huisnummer">Straat en huisnummer</label>
+        <input type="text" name="Straat" required><br><br>
+
+        <label for="Postcode">Postcode</label>
+        <input type="text" name="Postcode"><br><br>
+
+        <label>Stad:</label>
+        <input type="text" name="stad" required><br><br>
+
+        <label>Land:</label>
+        <input type="text" name="land" required><br><br>
+
+        <label>BSN-nummer:</label>
+        <input type="text" name="bsn" pattern="\d{9}" required><br><br>
+
+        <label>Vakantieland:</label>
+        <select name="vakantieland" required>
+            <option value="nederland">Nederland</option>
+            <option value="spanje">Spanje</option>
+            <option value="frankrijk">Frankrijk</option>
+            <option value="italie">Italië</option>
+            <option value="duitsland">Duitsland</option></select><br><br>
+
+        <label>Datum van vertrek:</label>
+        <input type="date" name="vertrekdatum" min="2024-09-23" required><br><br>
+ 
+         <label>Datum van terugkomst:</label>
+         <input type="date" name="terugkomstdatum" required><br><br>
+ 
+         <label>Aantal reisgenoten (maximaal 4):</label>
+         <input type="number" name="reisgenoten" min="0" max="4" required><br><br>
+
+         <label>E-mail:</label>
+         <input type="email" name="email" required><br><br>
+ 
+         <label>Wachtwoord:</label>
+         <input type="password" name="wachtwoord" required><br><br>
+ 
+         <input type="submit" value="Boek nu">
+    </form>
+</body>
+</html>
