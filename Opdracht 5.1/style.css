@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+  min-height: 100vh;
+}
+
+.indexPage {
+  background-image: url(img/background.jpeg);
+  margin: 0; /* Verwijder de standaardmarge van de body */
+  height: 100vh; /* Zorg ervoor dat de body de volledige hoogte van het scherm beslaat */
+  background-size: cover; /* Zorg ervoor dat de afbeelding de hele achtergrond bedekt */
+  background-position: center; /* Centreer de afbeelding */
+  background-repeat: no-repeat; /* Voorkom herhaling van de afbeelding */
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-family: "Goldman", cursive;
+  margin: 0;
+  padding: 0;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 500%;
+}
+
+.h1html {
+  color: black;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  top: 25%;
+  left: 50%;
+  font-size: 300%;
+}
+
+.h1java {
+  color: white;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  top: 25%;
+  left: 50%;
+  font-size: 300%;
+}
+
+.htmlContent {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  font-size: 18px;
+  width: 40%;
+  line-height: 1.5;
+}
+
+.javaPage {
+  background-color: #000;
+  color: #fff;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.htmlcssimg {
+  max-width: 35%; /* or any other percentage value */
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+ .javaContent {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  width: 40%;
+  transform: translate(-50%,-50%);;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.javaContent h2, .javaContent p {
+  color: #fff;
+}
+
+.javaimg {
+  max-width: 20%; /* or any other percentage value */
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 75%;  
+  transform: translate(-50%, -50%); 
+}
+
+.phpContent {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-50%,-50%);;
+  font-size: 18px;
+  width: 40%;
+  line-height: 1.5;
+}
+
+.phpimg {
+  max-width: 35%; /* or any other percentage value */
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.h1php {
+  color: black;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  top: 25%;
+  left: 50%;
+  font-size: 300%;
+}
+
+.sqlContent {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  width: 40%;
+  transform: translate(-50%,-50%);;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.sqlContent h2, .sqlContent p {
+  color: #fff;
+}
+
+.sqlPage {
+  background-color: #000;
+}
+
+.sqlimg {
+  max-width: 20%; /* or any other percentage value */
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 75%;  
+  transform: translate(-50%, -50%);
+}
+
+.h1sql {
+  color: white;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  top: 25%;
+  left: 50%;
+  font-size: 300%;
+}
+
+.sqlContent h2 span {
+  color: orange;
+}
+
+.phpContent h2 span {
+  color: purple;
+}
+
+.htmlContent h2 span:first-child {
+  color: rgb(4, 99, 150);
+}
+
+.htmlContent h2 span:last-child {
+  color: rgb(255, 68, 0);
+}
+
+.footer {
+  position: absolute;
+  background-color: #00a8c7;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  bottom: 0%;
+  width: 100vw;
+}
+
+.footer p {
+  margin: 0;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
